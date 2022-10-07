@@ -3,8 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24861111111111112" />
+        <entry key="../../../Library/Android/sdk/platforms/android-31/data/res/layout/activity_list_item.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/drawable/grey_border_with_corner_radius_10dp.xml" value="0.136" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.216" />
+        <entry key="app/src/main/res/drawable/no_internet.xml" value="0.1595" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.3307291666666667" />
+        <entry key="app/src/main/res/layout/activity_movies.xml" value="0.34270833333333334" />
+        <entry key="app/src/main/res/layout/fragment_movies_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_playlist.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_movie.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_playlist.xml" value="0.34270833333333334" />
         <entry key="app/src/main/res/layout/pull_request_item.xml" value="0.1" />
       </map>
     </option>

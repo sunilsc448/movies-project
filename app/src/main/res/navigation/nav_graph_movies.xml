@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_movies"
+    app:startDestination="@id/moviesListFragment">
+
+    <fragment
+        android:id="@+id/moviesListFragment"
+        android:name="com.example.assignment.ui.view.fragment.MoviesListFragment"
+        android:label="Movie App"
+        tools:layout="@layout/fragment_movies_list">
+        <action
+            android:id="@+id/playlistClicked"
+            app:destination="@id/playlistFragment"/>
+    </fragment>
+
+    <dialog android:id="@+id/playlistFragment"
+        android:name="com.example.assignment.ui.view.fragment.PlaylistFragment"
+        android:label="Movie App"
+        tools:layout="@layout/fragment_playlist">
+        <action
+            android:id="@+id/playListBackClicked"
+            app:destination="@id/moviesListFragment"/>
+    </dialog>
+
+</navigation>
