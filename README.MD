@@ -12,3 +12,4 @@
  - Coroutines - Suspending computations
  - Dagger - Dependency Injection
  - Retrofit - Rest API service
+ Pagination Support
